@@ -12,7 +12,7 @@ export default function ContactPage() {
        <div className="text-center mb-12">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">Get In Touch</h1>
         <p className="mt-4 text-muted-foreground md:text-xl">
-          We're here to help. Send us a message or use one of the options below.
+          We&apos;re here to help. Send us a message or use one of the options below.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -37,7 +37,7 @@ export default function ContactPage() {
             <Card>
                 <CardHeader>
                     <CardTitle>Send us a Message</CardTitle>
-                    <CardDescription>We'll get back to you as soon as possible.</CardDescription>
+                    <CardDescription>We&apos;ll get back to you as soon as possible.</CardDescription>
                 </CardHeader>
                 <CardContent>
                     {/* For a real form, you'd wrap this in a <form> and handle submission */}
