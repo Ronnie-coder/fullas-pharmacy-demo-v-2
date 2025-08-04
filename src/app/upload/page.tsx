@@ -7,24 +7,21 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Upload, CheckCircle } from 'lucide-react';
-import { toast } from "sonner"; // <-- CORRECT IMPORT
+import { toast } from "sonner";
 
 export default function UploadPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  // const { toast } = useToast(); // No longer need this hook
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
-    // The new, simpler toast call
     toast.success("Submission Successful!", {
-      description: "We've received your prescription and will contact you shortly.",
+      description: "We&apos;ve received your prescription and will contact you shortly.",
     });
     // In a real app, you'd handle file upload and form data here.
   };
 
   return (
-    // No need for a <Toaster /> component here anymore, it's in the root layout
     <div className="container mx-auto max-w-2xl py-12 md:py-24">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -35,7 +32,7 @@ export default function UploadPage() {
           <CardHeader className="text-center">
             <CardTitle className="text-3xl">Upload Your Prescription</CardTitle>
             <CardDescription>
-              Submit your script in a few easy steps. We'll handle the rest.
+              Submit your script in a few easy steps. We&apos;ll handle the rest.
             </CardDescription>
           </CardHeader>
           <CardContent>
