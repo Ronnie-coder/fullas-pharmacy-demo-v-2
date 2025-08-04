@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowRight, Truck, UploadCloud } from "lucide-react";
+import { Truck, UploadCloud } from "lucide-react";
 
 export function HeroSection() {
   const FADE_UP_ANIMATION_VARIANTS = {
