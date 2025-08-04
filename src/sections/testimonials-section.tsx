@@ -48,7 +48,7 @@ export function TestimonialsSection() {
             <motion.div key={testimonial.name} variants={itemVariants}>
                 <Card>
                 <CardContent className="pt-6">
-                    <blockquote className="text-lg italic">"{testimonial.quote}"</blockquote>
+                    <blockquote className="text-lg italic">&quot;{testimonial.quote}&quot;</blockquote>
                     <p className="mt-4 font-semibold text-right">- {testimonial.name}, {testimonial.location}</p>
                 </CardContent>
                 </Card>
