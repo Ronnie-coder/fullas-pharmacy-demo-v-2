@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
 import { PackageSearch, Package, PackageCheck } from 'lucide-react';
 
 type Status = 'idle' | 'processing' | 'out_for_delivery' | 'delivered' | 'not_found';
