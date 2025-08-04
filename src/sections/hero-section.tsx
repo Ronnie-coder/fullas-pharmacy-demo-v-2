@@ -6,10 +6,11 @@ import Link from "next/link";
 import { Truck, UploadCloud } from "lucide-react";
 
 export function HeroSection() {
+  // CORRECTED: Added "as const" to satisfy stricter TypeScript types
   const FADE_UP_ANIMATION_VARIANTS = {
     hidden: { opacity: 0, y: 10 },
     show: { opacity: 1, y: 0, transition: { type: "spring" } },
-  };
+  } as const;
 
   return (
     <section className="relative w-full py-24 lg:py-32 bg-brand-light dark:bg-gray-900/50">
