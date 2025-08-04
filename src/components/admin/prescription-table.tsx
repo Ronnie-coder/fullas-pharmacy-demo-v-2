@@ -10,7 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { PrescriptionRequest } from "@/types";
 import { cn } from "@/lib/utils";
-import { FileDown, MoreHorizontal } from "lucide-react";
+import { MoreHorizontal } from "lucide-react";
 import {
     DropdownMenu,
     DropdownMenuContent,
